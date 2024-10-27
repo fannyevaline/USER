@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lifestyle Theme</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-Fathiyah Azzahra 535230207--->
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top ">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Lifestyle Vibes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroo">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-2" href="#" role="button">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="heroo" class="hero text-center text-white"
+        style="position: relative; height: 80vh; display: flex; align-items: center; background-color: white;">
+        <!-- Background Image with Gradient Overlay -->
+        <div
+            style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center; filter: brightness(70%); height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 1;">
+        </div>
+
+        <!-- Gradient Overlay -->
+        <div
+            style="background: linear-gradient(to bottom, transparent, white); height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2;">
+        </div>
+
+        <!-- Content -->
+        <div class="container position-relative" style="z-index: 3;">
+            <h1 class="display-4 fw-bold">Embrace balance, health, and happiness</h1>
+            <p class="lead">The #1 web Lifestyle ediion.</p>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="btn btn-primary btn-lg me-3 shadow">Subscribe</a>
+                <a href="#" class="btn btn-secondary btn-lg shadow">Already have an account?</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Welcome Carousel (Full Screen) -->
+    <section id="about"
+        class="hero text-center position-relative bg-dark text-light py-5 container-fluid my-5 min-vh-100 d-flex flex-column justify-content-center">
+        <div class="container position-relative z-1">
+            <h2 class="display-4 fw-bold text-uppercase mb-3">Welcome to the Lifestyle Hub</h2>
+            <p class="lead text-white-50 mb-4">Explore trends, wellness, and living your best life</p>
+            <p class="mb-4">
+                Lifestyle is all about finding balance, embracing health, and living in the moment. It’s about choosing
+                practices and routines that nourish your body, mind, and spirit, allowing you to thrive in every aspect
+                of life. Whether you’re into fitness, mindfulness, or looking to elevate your daily routines with a bit
+                of inspiration, you've come to the right place. Here, we believe in a holistic approach to wellness that
+                includes not just physical health but also mental clarity, emotional resilience, and personal growth.
+                It's about taking the time to center yourself, cultivate gratitude, and connect with the world around
+                you.</p>
+
+            <!-- Carousel Start -->
+            <div id="lifestyleCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-pause="hover">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="carousel-image-container">
+                            <img src="https://images.unsplash.com/photo-1507919909716-c8262e491cde?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                                alt="Wellness lifestyle image from Unsplash"
+                                class="carousel-image img-fluid rounded shadow-lg" />
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://unsplash.com" target="_blank"
+                                class="text-white-50 text-decoration-none">Photo from Unsplash</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="carousel-image-container">
+                            <img src="https://images.unsplash.com/photo-1727461895261-9a006b52f342?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8RnpvM3p1T0hONnd8fGVufDB8fHx8fA%3D%3D"
+                                alt="Mindfulness image from Unsplash"
+                                class="carousel-image img-fluid rounded shadow-lg" />
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://unsplash.com" target="_blank"
+                                class="text-white-50 text-decoration-none">Photo from Unsplash</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="carousel-image-container">
+                            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                                alt="Fitness lifestyle image from Unsplash"
+                                class="carousel-image img-fluid rounded shadow-lg" />
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://unsplash.com" target="_blank"
+                                class="text-white-50 text-decoration-none">Photo from Unsplash</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="carousel-image-container">
+                            <img src="https://images.unsplash.com/photo-1727259066904-a7a1e43c6a5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8RnpvM3p1T0hONnd8fGVufDB8fHx8fA%3D%3D"
+                                alt="Healthy lifestyle image from Unsplash"
+                                class="carousel-image img-fluid rounded shadow-lg" />
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://unsplash.com" target="_blank"
+                                class="text-white-50 text-decoration-none">Photo from Unsplash</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#lifestyleCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#lifestyleCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel End -->
+        </div>
+    </section>
+
+    <!-- Custom CSS to Ensure Uniform Image Sizes -->
+    <style>
+        .carousel-image-container {
+            position: relative;
+            /* Positioning context for the image */
+            height: 500px;
+            /* Set a fixed height */
+            overflow: hidden;
+            /* Hide overflow to maintain uniformity */
+        }
+
+        .carousel-image {
+            position: absolute;
+            /* Positioning the image */
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            /* Fill the container */
+            object-fit: cover;
+            /* Crop the image to fill the set dimensions */
+            transform: translate(-50%, -50%);
+            /* Center the image */
+        }
+    </style>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+
+
+
+    <!-- Section 2: Latest in Lifestyle -->
+    <section class="latest-lifestyle bg-light text-dark py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <h2 class="display-4 fw-bold text-center mb-5">Latest in Lifestyle</h2>
+
+            <p class="lead text-center text-muted mb-5">
+                Discover the latest trends, tips, and ideas to enhance your everyday life. From wellness and fitness to
+                home design and travel, explore a world of inspiration to help you live more fully and joyfully.
+            </p>
+
+            <!-- Cards Row -->
+            <div class="row">
+                <!-- Wellness Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://plus.unsplash.com/premium_photo-1661777196224-bfda51e61cfd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eW9nYXxlbnwwfHwwfHx8MA%3D%3D"
+                            class="card-img-top" alt="Wellness and mindfulness">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Mindfulness & Wellness</h5>
+                            <p class="card-text text-muted">
+                                Embrace inner peace and balance through mindfulness. Discover simple, impactful ways to
+                                bring calm and clarity to your everyday life.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fitness Trends Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                            class="card-img-top" alt="Latest fitness trends">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Fitness Trends</h5>
+                            <p class="card-text text-muted">
+                                Stay active and inspired with the latest fitness trends. Explore new workouts and expert
+                                advice to keep you motivated and moving.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Home & Design Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://media.istockphoto.com/id/1990444472/photo/scandinavian-style-cozy-living-room-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=F5A3eF6myaJpITu5ABnGqNjacGWYskuxeZviU-KpxPE="
+                            class="card-img-top" alt="Home and design inspirations">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Home & Design</h5>
+                            <p class="card-text text-muted">
+                                Transform your space into a sanctuary. Find inspiration for creating a home that
+                                reflects your style, comfort, and personality.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secondary Row for Travel and Food -->
+            <div class="row mt-4">
+                <!-- Travel Inspiration Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHww"
+                            class="card-img-top" alt="Travel inspiration">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Travel Inspiration</h5>
+                            <p class="card-text text-muted">
+                                Discover breathtaking destinations and travel tips to fuel your wanderlust. Start
+                                planning your next adventure and create memories.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food & Nutrition Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                            class="card-img-top" alt="Food and nutrition">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Food & Nutrition</h5>
+                            <p class="card-text text-muted">
+                                Elevate your meals with nourishing, delicious recipes and nutrition tips. Learn to enjoy
+                                healthy eating with ease and pleasure.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom CSS for Hover Effect -->
+    <style>
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <!-- Explore Fashion & Trends Section -->
+    <section class="explore-fashion py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Explore Fashion & Trends</h2>
+            <p class="text-center text-muted mb-5">Stay ahead in fashion with insights into what's trending, sustainable
+                fashion tips, and more.</p>
+
+            <!-- Filter Buttons -->
+            <div class="d-flex justify-content-center mb-4">
+                <button class="btn btn-outline-dark mx-2 filter-btn" data-filter="all">All</button>
+                <button class="btn btn-outline-dark mx-2 filter-btn" data-filter="casual">Casual</button>
+                <button class="btn btn-outline-dark mx-2 filter-btn" data-filter="formal">Formal</button>
+                <button class="btn btn-outline-dark mx-2 filter-btn" data-filter="eco-friendly">Eco-Friendly</button>
+            </div>
+
+            <!-- Fashion Cards -->
+            <div class="row g-4 fashion-cards">
+                <!-- Casual Items -->
+                <div class="col-md-4 fashion-item casual">
+                    <div class="card p-3 text-center">
+                        <img src="https://images.unsplash.com/photo-1485218126466-34e6392ec754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hpcnR8ZW58MHx8MHx8fDA%3D"
+                            alt="Casual T-Shirt" class="img-fluid mb-3">
+                        <h6 class="fw-bold">Casual T-Shirt</h6>
+                        <p class="text-muted">$30.00</p>
+                        <button class="btn btn-primary mt-3">Buy</button>
+                    </div>
+                </div>
+                <div class="col-md-4 fashion-item eco-friendly">
+                    <div class="card p-3 text-center">
+                        <img src="https://plus.unsplash.com/premium_photo-1691367279313-71af7ba83f2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Relaxed Jeans" class="img-fluid mb-3">
+                        <h6 class="fw-bold">Relaxed Jeans</h6>
+                        <p class="text-muted">$45.00</p>
+                        <button class="btn btn-primary mt-3">Buy</button>
+                    </div>
+                </div>
+
+                <!-- Formal Items -->
+                <div class="col-md-4 fashion-item formal">
+                    <div class="card p-3 text-center">
+                        <img src="https://plus.unsplash.com/premium_photo-1674507926744-c05e1ac983ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxhemVyfGVufDB8fDB8fHww"
+                            alt="Tailored Blazer" class="img-fluid mb-3">
+                        <h6 class="fw-bold">Tailored Blazer</h6>
+                        <p class="text-muted">$120.00</p>
+                        <button class="btn btn-primary mt-3">Buy</button>
+                    </div>
+                </div>
+                <!-- Add additional items here with the "Buy" button as shown above -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS for Hover Effects -->
+    <style>
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <!-- JavaScript for Filtering -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterButtons = document.querySelectorAll(".filter-btn");
+            const fashionItems = document.querySelectorAll(".fashion-item");
+
+            filterButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const filter = this.getAttribute("data-filter");
+
+                    fashionItems.forEach(item => {
+                        if (filter === "all" || item.classList.contains(filter)) {
+                            item.style.display = "block";
+                        } else {
+                            item.style.display = "none";
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            .subscribe-section {
+                background-color: #f8f9fa;
+                /* Warna latar belakang yang lembut */
+                border-radius: 15px;
+                /* Sudut melengkung */
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                /* Bayangan halus */
+            }
+
+            .subscribe-section h2 {
+                color: #343a40;
+                /* Warna gelap untuk judul */
+            }
+
+            .subscribe-section h3 {
+                color: #6c757d;
+                /* Warna abu-abu untuk subjudul */
+            }
+
+            footer a {
+                color: #007bff;
+                /* Warna link */
+                text-decoration: none;
+                /* Menghilangkan garis bawah */
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+                /* Garis bawah saat hover */
+            }
+        </style>
+    </head>
+
+    <body>
+        <section id="contact" aria-label="Subscribe example" class="subscribe-section py-5 my-5">
+            <div class="container text-center">
+                <article>
+                    <hgroup>
+                        <h2 class="display-4">Join Our Community</h2>
+                        <h3 class="h5">Subscribe for the latest lifestyle updates</h3>
+                    </hgroup>
+                    <form class="row g-3 justify-content-center mt-4">
+                        <div class="col-md-4">
+                            <input type="text" id="firstname" name="firstname" placeholder="First Name"
+                                aria-label="First Name" required class="form-control" />
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required
+                                class="form-control" />
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" onclick="event.preventDefault()" class="btn btn-primary w-100">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </section>
+
+        <footer class="container text-center my-4">
+            <small>
+                <a href="#">Privacy Policy</a> •
+                <a href="#">Terms & Conditions</a>
+            </small>
+        </footer>
+    </body>
+
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
